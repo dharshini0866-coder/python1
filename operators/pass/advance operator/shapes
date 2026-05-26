@@ -1,0 +1,11 @@
+
+side = int(input())
+length = int(input())
+breadth = int(input())
+radius = float(input())
+square_area = side * side
+rectangle_area = length * breadth
+circle_area = 3.14 * radius * radius
+print(square_area)
+print(rectangle_area)
+print(f"{circle_area:.2f}")
